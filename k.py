@@ -1,4 +1,4 @@
-# 1 print formating
+#  print formating
 
 name = 'blackie'
 age = 25
@@ -7,13 +7,13 @@ print(f'My name is {name}.')
 print(f'I am {age} years old :)')
 print(f'I love {p_language} programming!')
 
-# 2 swapping variables
+#  swapping variables
 x,y=2,3
 x,y=y,x
 print(x)
 print(y)
 
-# 3 simple calculator
+#  simple calculator
 
 print('=================================')
 print('        WELCOME')
@@ -35,7 +35,7 @@ elif opp == '/':
 else:
      print('Invalid input TRY AGIAN!!')
 
-# 4 type
+#  type
 
 X = 10
 Y = 3.14
@@ -43,14 +43,14 @@ Z = "HUISA"
 A = True
 print(type(X), type(Y), type(Z), type(A))
 
-# 5 list oprations 
+#  list oprations 
 
 list = [2, 4, 6, 8, 10]
 list.append(0)
 list.remove(4)
 print(f'Max: {max(list)}, Min: {min(list)}')
 
-# 6 Dictionary manipulation
+#  Dictionary manipulation
 
 students = {'diddy':15, 'helen':69}
 students['mia']=99
@@ -58,18 +58,18 @@ students['diddy']=9
 del students['helen']
 print(students)
 
-# 7 tuple unpacking
+#  tuple unpacking
 
 ddd = (10, 20, 30)
 a, b, c = ddd
 print(a, b, c)
 
-# 8 sum of even numbers 1 - 100
+#  sum of even numbers 1 - 100
 
 sum = sum(i for i in range (1,101) if i % 2 == 0)
 print(f'sum of even number 1 - 100 = {sum}')
 
-# 9 n factorial
+#  n factorial
 
 def fac(n):
       e = 1
@@ -78,14 +78,14 @@ def fac(n):
             return e
 print(f'Factor of 5 is : {fac(5)}')
 
-# 10 Multiplication Table
+#  Multiplication Table
 
 def multiplication_table(n):
     for i in range(1, 11):
         print(f"{n} x {i} = {n * i}")
 multiplication_table(5)
 
-# 11 Reverse a String
+#  Reverse a String
 
 def reverse_string(s):
     reversed_s = ""
@@ -94,7 +94,7 @@ def reverse_string(s):
     return reversed_s
 print(reverse_string("Python"))
 
-# 12 Fibonacci Sequence
+#  Fibonacci Sequence
 
 def fibonacci(n):
     sequence = [0, 1]
@@ -103,13 +103,13 @@ def fibonacci(n):
     return sequence[:n]
 print(fibonacci(10))
 
-# 13 Count Digits in a Number
+#  Count Digits in a Number
 
 def count_digits(n):
     return len(str(abs(n)))
 print(count_digits(12345))
 
-# 14 Prime Number Check
+#  Prime Number Check
 
 def is_prime(n):
     if n < 2:
@@ -120,14 +120,14 @@ def is_prime(n):
     return True
 print(is_prime(29))
 
-# 15 Finding Common Elements
+#  Finding Common Elements
 
 list1 = [1, 2, 3, 4, 5]
 list2 = [3, 4, 5, 6, 7]
 common_elements = list(set(list1) & set(list2))
 print("Common Elements:", common_elements)
 
-# 16 Student Class
+#  Student Class
 
 class Student:
     def __init__(self, name, age, course):
@@ -137,7 +137,7 @@ class Student:
     def display_info(self):
         print(f"Student: {self.name}, Age: {self.age}, Course: {self.course}")
 
-# 17 Inheritance
+#  Inheritance
 
 class Course:
     def get_details(self):
@@ -146,7 +146,7 @@ class WebDevClass(Course):
     def get_details(self):
         print("This is a Web Development course.")
 
-# 18 Encapsulation
+#  Encapsulation
 class BankAccount:
     def __init__(self, balance):
         self.__balance = balance
@@ -160,7 +160,7 @@ class BankAccount:
     def get_balance(self):
         return self.__balance
 
-# 19 Polymorphism
+#  Polymorphism
 class Car:
     def move(self):
         print("The car is moving fast")
