@@ -52,10 +52,10 @@ print(f'Max: {max(list)}, Min: {min(list)}')
 
 #  Dictionary manipulation
 
-students = {'diddy':15, 'helen':69}
-students['mia']=99
-students['diddy']=9
-del students['helen']
+students = {'abebe':15, 'hiwot':19}
+students['meseret']=99
+students['abebe']=9
+del students['hiwot']
 print(students)
 
 #  tuple unpacking
