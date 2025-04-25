@@ -9,3 +9,5 @@ def isValid(s: str) -> bool:
                 return False
         else:
             stack.append(char)
+
+    return not stack
